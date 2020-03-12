@@ -39,14 +39,14 @@ func getProduct(context *gin.Context) {
 		Data		:	[]Data{
 			{
 				ID						: 1,
-				ProductName		:	"Buku Membangun Aplikasi Android Web Dan Web Service",
+				ProductName		:	"Buku Membangun Aplikasi Android",
 				Image					: "https://cdn.gramedia.com/uploads/items/membangun_aplikasi__w414_hauto.jpg",
 				Category			: "technology",
 				Price					: 85000,
 			},
 			{
 				ID						: 2,
-				ProductName		:	"Buku Menguasai Pemrograman Berorientasi Objek",
+				ProductName		:	"Buku Menguasai PBO",
 				Image					: "https://cdn.gramedia.com/uploads/items/menguasai_pemrograman__w414_hauto.jpg",
 				Category			: "technology",
 				Price					: 125000,
@@ -86,14 +86,14 @@ func getProductCategory(context *gin.Context) {
 			Data		:	[]Data{
 				{
 					ID						: 1,
-					ProductName		:	"Buku Membangun Aplikasi Android Web Dan Web Service",
+					ProductName		:	"Buku Membangun Aplikasi Android",
 					Image					: "https://cdn.gramedia.com/uploads/items/membangun_aplikasi__w414_hauto.jpg",
 					Category			: "technology",
 					Price					: 85000,
 				},
 				{
 					ID						: 2,
-					ProductName		:	"Buku Menguasai Pemrograman Berorientasi Objek",
+					ProductName		:	"Buku Menguasai PBO",
 					Image					: "https://cdn.gramedia.com/uploads/items/menguasai_pemrograman__w414_hauto.jpg",
 					Category			: "technology",
 					Price					: 125000,
