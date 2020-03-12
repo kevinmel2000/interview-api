@@ -2,5 +2,5 @@
 for ralalian candidate
 
 ## ENDPOINT
-- https://interview-ralali-api.herokuapp.com/product/
-- https://interview-ralali-api.herokuapp.com/product/:category  (category : technology, education)
+- (GET) https://interview-ralali-api.herokuapp.com/product/
+- (GET) https://interview-ralali-api.herokuapp.com/product/category  (category : technology, education)
