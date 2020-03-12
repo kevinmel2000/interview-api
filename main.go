@@ -1,9 +1,16 @@
 package main
 
-import "github.com/gin-gonic/gin"
-
+import (
+	"github.com/gin-contrib/cors"
+	"github.com/gin-gonic/gin"
+)
 func main() {
 	router := gin.Default()
+	router.Use(cors.New(cors.Config{
+		AllowOrigins:     []string{"*"},
+		AllowMethods:     []string{"*"},
+		AllowHeaders:     []string{"*"},
+	}))
 
 	router.GET("/product", getProduct)
 	router.GET("/product/:category", getProductCategory)
